@@ -1,4 +1,8 @@
 // SPDX-License-Identifier: MIT
+
+//SMART CONTRACT ON CHAIN: https://sepolia.etherscan.io/address/0xe78217e7bfa11c026e62f81b598203bfd643ebee
+//OPENSEA COLLECTION: https://testnets.opensea.io/collection/alchemy-103
+
 pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
