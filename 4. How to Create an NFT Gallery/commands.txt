@@ -1,0 +1,27 @@
+//https://docs.alchemy.com/docs/how-to-create-an-nft-gallery
+//https://www.youtube.com/watch?v=JzsTfOFjC1o
+
+npx create-next-app -e with-tailwindcss nameoftheproject
+
+cd nameoftheproject
+
+npm install typescript --save-dev
+
+npx create-next-app@11.0.0 --ts --tailwind with-tailwindcss-app nameoftheproject
+
+cd nameoftheproject
+
+npm run dev
+
+npm install dotenv --save
+
+http://localhost:3000
+
+//https://www.geeksforgeeks.org/how-to-fix-configuration-issue-if-tailwind-css-not-working-with-next-js/
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+//Wallet for testing 0xC75bDeb8443DE818AB7442cc007135e8EF7084b8
+//Collection for testing 0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D
