@@ -1,0 +1,55 @@
+En createToken() Minteo el NFT para el msg.sender. El que envió la transaccion es el owner nativo.
+Owner nativo: Smart contract
+
+En createListedToken() transfiero el nft del msg.sender al smart contract. El smart contract es el owner nativo. El smart contract es el owner de registro.
+
+Owner nativo: Smart contract
+Owner registro: Smart contract
+
+
+Primera venta
+
+En executeSale() transfiero el nft del smart contract al msg.sender. La cuenta 1 es el nuevo owner nativo.
+
+Ejecuto también el approve para que el smart contract pueda mover el NFT.
+
+El owner de registro se actualiza con la dirección de la cuenta 1.
+
+Owner nativo: Address de la cuenta 1
+Owner registro: Address de la cuenta 1
+Approve: Smart contract
+
+
+
+
+Segunda venta
+
+tokenOwner=Address de la cuenta 1
+
+
+En executeSale() transfiero el nft de la cuenta 1 al msg.sender. La cuenta 2 es el nuevo owner nativo.
+
+Ejecuto también el approve para que el smart contract pueda mover el NFT.
+
+El owner de registro se actualiza con la dirección de la cuenta 1.
+
+Owner nativo: Address de la cuenta 2
+Owner registro: Address de la cuenta 2
+Approve: Smart contract
+
+
+
+TESTING ON REMIX
+
+Create token
+10000000000000000
+Wei
+
+aaaaaaaaaaa tokenUri
+bbbbbbbbbbb tokenUri
+ccccccccccc tokenUri
+10 price
+
+executeSale
+1
+
