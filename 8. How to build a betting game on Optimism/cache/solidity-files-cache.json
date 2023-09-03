@@ -1,0 +1,110 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\USER\\Downloads\\0xCOURSES\\Alchemy University\\Road to Web3\\road-to-web3-advanced-extension\\8. How to build a betting game on Optimism\\contracts\\Casino.sol": {
+      "lastModificationDate": 1693626229300,
+      "contentHash": "e099e9908ac3beabbd14b681d3e4718b",
+      "sourceName": "contracts/Casino.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Casino"
+      ]
+    },
+    "D:\\USER\\Downloads\\0xCOURSES\\Alchemy University\\Road to Web3\\road-to-web3-advanced-extension\\8. How to build a betting game on Optimism\\contracts\\Lock.sol": {
+      "lastModificationDate": 1693540981593,
+      "contentHash": "ae66265769cc28ebdaa34881df95bc5e",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "D:\\USER\\Downloads\\0xCOURSES\\Alchemy University\\Road to Web3\\road-to-web3-advanced-extension\\8. How to build a betting game on Optimism\\contracts\\CasinoWithoutFrontrunningDefense.sol": {
+      "lastModificationDate": 1693603999353,
+      "contentHash": "26ead1d68033683a5b6f02616c6abdff",
+      "sourceName": "contracts/CasinoWithoutFrontrunningDefense.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CasinoWithoutFrontrunningDefense"
+      ]
+    }
+  }
+}

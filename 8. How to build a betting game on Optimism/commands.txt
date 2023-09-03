@@ -1,0 +1,42 @@
+https://blog.logrocket.com/build-random-number-generator-blockchain/ Follow the instructions here on REMIX
+
+
+https://github.com/qbzzt/qbzzt.github.io/tree/master/LogRocket/20220615-random
+
+cd D:\USER\Downloads\0xCOURSES\Alchemy University\Road to Web3\road-to-web3-advanced-extension\8. How to build a betting game on Optimism
+
+npm init -y
+npm install --save-dev hardhat
+npx hardhat
+Create a JavaScript project
+npm install --save-dev "hardhat@^2.14.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+npx hardhat node
+
+npm install @openzeppelin/test-helpers
+
+npx hardhat test
+
+npx hardhat run scripts/deploy.js --network localhost
+
+---------------------------ToDo---------------------------
+
+Debug the shit out of casino-test.js until understanding why the fuck it works to make the system wait the 21 seconds 
+
+EXECUTE ON REMIX
+
+This is ValA: 0x8cc3d2b4a77fde283de72228ce4cdb1ccadc68d3f30e6e01342f5aad57e8570f
+This is hashA: 0x38884439ad0358e6635220828d323035c6c16c51dc8d64f83e485055537dfa19
+This is valBwin: 0xbde6c8a86688659a961a92784950234f325503947579e2f655978e5f4b4ca8ea
+This is valBlose: 0x8cc3d2b4a77fde283de72228ce4cdb1ccadc68d3f30e6e01342f5aad57e8570f
+
+proposeBet()  ACCOUNT 1
+0x38884439ad0358e6635220828d323035c6c16c51dc8d64f83e485055537dfa19 - commitment
+
+acceptBet() ACCOUNT 2
+0x38884439ad0358e6635220828d323035c6c16c51dc8d64f83e485055537dfa19 -commitment 
+0xbde6c8a86688659a961a92784950234f325503947579e2f655978e5f4b4ca8ea - random
+
+reveal() ACCOUNT 1
+0x8cc3d2b4a77fde283de72228ce4cdb1ccadc68d3f30e6e01342f5aad57e8570f -random
+

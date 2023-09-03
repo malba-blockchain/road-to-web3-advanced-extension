@@ -1,0 +1,17 @@
+{
+  "name": "8.-how-to-build-a-betting-game-on-optimism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "casino-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "hardhat": "^2.14.0"
+  }
+}
