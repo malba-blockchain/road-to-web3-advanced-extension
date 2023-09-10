@@ -1,0 +1,29 @@
+https://docs.alchemy.com/docs/how-to-build-a-token-swap-dapp-with-0x-api
+
+https://www.youtube.com/watch?v=tVvZ1ivp4X0
+
+
+https://github.com/0xProject/swap-demo-tutorial/blob/main/swap-demo-tutorial-part-9/index.js
+
+
+cd D:\USER\Downloads\0xCOURSES\Alchemy University\Road to Web3\road-to-web3-advanced-extension\9. How to Build a Token Swap Dapp With 0x API\swap-demo-tutorial
+
+npm install browserify -g
+
+npm i qs
+
+npm install web3
+
+browserify index.js --standalone bundle -o bundle.js
+
+SAMPLE KEY IN HOME PAGE: FIND YOURS AT https://dashboard.0x.org/login
+
+KEY ON DEMO APP CREATED: FIND YOURS AT https://dashboard.0x.org/login
+
+--------------------------ToDo--------------------------
+
+
+
+MAKE SURE YOU USE A PAIR WITH A CRYPTO CURRENCY YOU HAVE ENOUGH AND ALSO HAVE GAS
+
+
